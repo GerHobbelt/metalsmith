@@ -316,6 +316,15 @@ describe('Metalsmith', function(){
       });
     });
 
+    it ('should parse frontmatter in presence of BOM', function(done){
+      var m = Metalsmith('test/fixtures/read-frontmatter-bom');
+      m.read(function(err, files){
+        if (err) return done(err);
+        assert.equal(files['index.md'].template, 'thing');
+        done();
+      });
+    });
+
     it('should still read all when concurrency is set', function(done){
       var m = Metalsmith('test/fixtures/concurrency');
       m.concurrency(3);
