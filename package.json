@@ -2,7 +2,10 @@
   "name": "metalsmith",
   "version": "2.1.0",
   "license": "MIT",
-  "repository": "git://github.com/segmentio/metalsmith.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/segmentio/metalsmith.git"
+  },
   "description": "An extremely simple, pluggable static site generator.",
   "bin": {
     "metalsmith": "bin/metalsmith",
@@ -38,6 +41,7 @@
     "istanbul": "^0.4.1",
     "metalsmith-drafts": "0.0.1",
     "metalsmith-markdown": "0.2.1",
+    "minimist": "^1.2.0",
     "mocha": "^2.2.5"
   },
   "keywords": [
@@ -51,5 +55,43 @@
     "jekyll",
     "wintersmith",
     "blacksmith"
-  ]
+  ],
+  "gitHead": "eb43dfdb3fc7ccd5f9c7b1b501819c07cea8d162",
+  "bugs": {
+    "url": "https://github.com/segmentio/metalsmith/issues"
+  },
+  "homepage": "https://github.com/segmentio/metalsmith#readme",
+  "_id": "metalsmith@2.0.1",
+  "_shasum": "ef776635853b53ad81fb71f91f1806175e849df0",
+  "_from": "metalsmith@*",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "segment",
+    "email": "tools+npm@segment.com"
+  },
+  "dist": {
+    "shasum": "ef776635853b53ad81fb71f91f1806175e849df0",
+    "tarball": "http://registry.npmjs.org/metalsmith/-/metalsmith-2.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ianstormtaylor",
+      "email": "ian@ianstormtaylor.com"
+    },
+    {
+      "name": "segmentio",
+      "email": "team@segment.io"
+    },
+    {
+      "name": "segment",
+      "email": "tj@segment.io"
+    },
+    {
+      "name": "dominicbarnes",
+      "email": "dominic@dbarnes.info"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/metalsmith/-/metalsmith-2.0.1.tgz"
 }
