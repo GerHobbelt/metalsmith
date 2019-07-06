@@ -13,6 +13,6 @@
     "handlebars": "^4.0.5",
     "metalsmith": "*",
     "metalsmith-layouts": "^1.6.5",
-    "metalsmith-markdown": "^0.2.1"
+    "metalsmith-markdown": "^1.0.1"
   }
 }
